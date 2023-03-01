@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo1 {
+  width: 5vw;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.navItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navMenu ul {
+  margin-right: 15px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
